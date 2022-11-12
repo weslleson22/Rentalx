@@ -1,0 +1,2 @@
+yarn tsc --init
+inicianado o typescript

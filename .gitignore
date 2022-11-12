@@ -1,0 +1,3 @@
+node_modules
+docker-compose copy.yml
+.vscode
