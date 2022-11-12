@@ -1,2 +1,4 @@
 yarn tsc --init
 inicianado o typescript
+
+yarn add ts-node-dev -D vamos usar para roda nosso serviço
