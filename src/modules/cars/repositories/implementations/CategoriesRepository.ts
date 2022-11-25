@@ -1,6 +1,6 @@
 
-import { Category } from "../model/Category";
-import { ICategoriesRepository, ICreateCategotyDTO } from "./ICategoriesRepository";
+import { Category } from "../../model/Category";
+import { ICategoriesRepository, ICreateCategotyDTO } from "../ICategoriesRepository";
 
 // singleton ideia é fazer uma instancia global. 
 class CategoriesRepository implements ICategoriesRepository{
