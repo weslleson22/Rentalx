@@ -2,13 +2,20 @@
 import { Category } from "../model/Category";
 import { ICategoriesRepository, ICreateCategotyDTO } from "./ICategoriesRepository";
 
-
+// singleton ideia é fazer uma instancia global. 
 class CategoriesRepository implements ICategoriesRepository{
    private categories: Category[];
+   private static INSTACE: CategoriesRepository;
 
-   constructor(){
+   private constructor(){
     this.categories=[];
     
+   }
+   public static getIntance(): CategoriesRepository{
+      if(!CategoriesRepository.INSTACE){
+         CategoriesRepository.INSTACE = new CategoriesRepository();
+      }
+      return CategoriesRepository.INSTACE;
    }
 //DTO => Data Transfer Object
    create({name, description}: ICreateCategotyDTO): void{
