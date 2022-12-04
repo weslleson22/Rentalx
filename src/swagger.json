@@ -1,0 +1,12 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "RentaLX Documentation",
+        "description": "This is an API Rendt",
+        "version": "1.0.0",
+        "contact": {
+            "email": "wesllesonsowza@gmail.com",
+            "name": "98 984971547"
+        }
+    }
+}

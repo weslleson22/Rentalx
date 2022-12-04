@@ -4,3 +4,8 @@ inicianado o typescript
 yarn add ts-node-dev -D vamos usar para roda nosso serviço
 yarn add multer
 yarn add @types/multer -D
+
+
+yarn add swagger-ui-express - Para a criação da documentação
+
+yarn add @types/swagger-ui-express -D
